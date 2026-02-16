@@ -8,15 +8,15 @@ This week, we'll cover data manipulation skills in Pandas, as well as some basic
 
 ### Creating a new Git Repository
 
-Begin by creating a new git repository on GitHub titled whatever you want but making sure it's informative (something like "NBA_Draft_Prediction_Model). Add a README as well, we can worry about filling it out later on. 
+Begin by creating a new git repository on GitHub titled whatever you want but making sure it's informative (something like "NBA_Draft_Prediction_Model"). Add a README as well, we can worry about filling it out later on. 
 
-Then, like as described in the Week 0 instructions, clone the repository to your local device.
+Then, as described in the Week 0 instructions, clone the repository to your local device.
 
 ### Creating a .venv
 
-Open the repository you just cloned in VSCode and initialize a virtual environment. Open a new terminal window to ensure your virtual environment is active, you should see something like `.venv` at the the start of each new line. In VSCode, your .venv should activate automatically, but in case it doesn't, type `source .venv/bin/activate` on MacOS/Linux or `.venv\Scripts\Activate.ps1` on Windows into your terminal. 
+Open the repository you just cloned in VSCode and initialize a virtual environment. Open a new terminal window to ensure your virtual environment is active, you should see something like `.venv` at the start of each new line. In VSCode, your .venv should activate automatically, but in case it doesn't, type `source .venv/bin/activate` on MacOS/Linux or `.venv\Scripts\Activate.ps1` on Windows into your terminal. 
 
-With your virtual environment activated, its time to install all of the packages you will need for this project. In the Github page for this project, you will find a file titled `requirements.txt`. Download this file and upload it to the directory you are currently working in. Now run `pip install -r requirements.txt` in your terminal. This command will install all of the packages listed in the requirements file (by the way `-r` is what is known as a flag variable, a way to tell the `pip install` command that `requirements.txt` is a file with packages that need to be installed). 
+With your virtual environment activated, it's time to install all of the packages you will need for this project. In the Github page for this project, you will find a file titled `requirements.txt`. Download this file and upload it to the directory you are currently working in. Now run `pip install -r requirements.txt` in your terminal. This command will install all of the packages listed in the requirements file (by the way `-r` is what is known as a flag variable, a way to tell the `pip install` command that `requirements.txt` is a file with packages that need to be installed). 
 
 ### adding a .gitignore.
 
@@ -27,7 +27,7 @@ Now that you have your development environment configured, its time to actually 
 
 ## Part 2: Data and Jupyter Notebooks
 
-Cool, now its time to actually take a look at our NBA draft prospect data. On the Github repo with the instructions for this project, go to the Data folder and grab the file titled `ncaa_data.csv`. This file contains all NCAA Men's Basketball player seasons from the 2015 to 2024 college basketball seasons, but only containing players from the Power Conferences(Big 10, SEC, Big 12, Big East, and Pac-12 Prior to dissolution) plus a few notable Mid-major programs. I've excluded international draft prospects to simplify the modeling and data collection work.
+Cool, now it's time to actually take a look at our NBA draft prospect data. On the Github repo with the instructions for this project, go to the Data folder and grab the file titled `ncaa_data.csv`. This file contains all NCAA Men's Basketball player seasons from the 2015 to 2024 college basketball seasons, but only containing players from the Power Conferences (Big 10, SEC, Big 12, Big East, and Pac-12 Prior to dissolution) plus a few notable Mid-major programs. I've excluded international draft prospects to simplify the modeling and data collection work. Note that I'm planning to save the 2025 season to use for later evaluation, so it is not included in this data.
 
 Upload this file to a new `Data` folder in your own directory. Then create a new file titled `EDA.ipynb`. Pay special attention to the `.ipynb` file extension, this type of file is called a jupyter notebook. Jupyter notebooks allow us to execute individual cells of python code to see the contents of our data as we programmatically modify it. Of course, this contrasts with a normal `.py` file, where the code runs all at once. This will be particularly useful as we conduct exploratory analysis on our data, the first step of any machine learning project.
 
