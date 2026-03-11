@@ -1,6 +1,6 @@
 # Week 3: Hyperparameter Tuning & Model Interpretability
 
-Hey everyone, welcome to week 3! Last week we trained a baseline XGBoost model and evaluated it on a held-out test set. This week we'll properly tune the model using a validation split, then dig into what our model has actually learned using feature importances and SHAP.
+Hey everyone, welcome to week 3! Last week we trained a baseline XGBoost model and evaluated it on a held-out test set. This week we'll properly tune the model using a validation split, then dig into what our model has actually learned using feature importances
 
 ## Part 1: Hyperparameter Tuning
 
